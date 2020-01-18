@@ -1,0 +1,7 @@
+(06 54 01 01 10) == (reg[10] = reg[1] & reg[1]) == (assign reg10 to val of reg1 but set carry according to content/that is the flag for jump.)
+Two processes move over instruction then to a zjmp, both make the jump but only one should, the other should continue when zjmp fails.
+zjmp fails if the carry flag is set to ???
+so there is behavior such that (x & x) ends in carry == 1 AND (y & y) ends in carry == 0;
+1 & 1 == 1
+0 & 0 == 0
+

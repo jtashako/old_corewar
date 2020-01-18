@@ -1,0 +1,11 @@
+.name "forker"
+.comment "get forked"
+
+start:
+	and	r2,r2,r2
+	lfork	%:step
+	zjmp	%128
+	lfork	%:start
+step:
+	zjmp	%128
+	

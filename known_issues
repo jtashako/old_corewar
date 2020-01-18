@@ -1,0 +1,4 @@
+segfault: ./corewar 2018champs/Explosive_Kitty.cor 2018champs/mise_a_jour_windows95.cor 
+wrong winner: ./corewar champions/rain.cor champions/Gagnant.cor
+
+pnum not found => wrong winner : ./corewar 2018champs/Douceur_power.cor 2018champs/Explosive_Kitty.cor 2018champs/mise_a_jour_windows95.cor
